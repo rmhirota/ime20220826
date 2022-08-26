@@ -4,6 +4,7 @@ subtitle: "Aplicações no direito e no jornalismo"
 format:
   revealjs:
     theme: moon
+    self-contained: true
 ---
 
 ## Olá! `r emo::ji("wave")` {.smaller}
@@ -20,11 +21,23 @@ knitr::include_graphics("imgs/renata.jpg")
 ::: {.column width="70%"}
 **Renata Hirota** é jornalista de dados, formada na ECA-USP e no IME-USP. Lida com dados desde 2017 e atualmente trabalha na Associação Brasileira de Jurimetria. Colabora também com o Núcleo Jornalismo / Volt Data Lab, onde trabalha com análises de dados e desenvolvimento de ferramentas para jornalistas. Faz parte da comunidade R-Ladies São Paulo, que promove a diversidade de gênero na comunidade da linguagem de programação R.
 
+[@renata_mh](https://twitter.com/renata_mh) | [Núcleo Jornalismo](https://www.nucleo.jor.br/) | [ABJ](http://abj.org.br/)
+
 :::
 
 ::::
 
-## Jornalismo de dados?
+
+# Jornalismo de dados
+
+. . .
+
+- Volume de dados
+- Aplicações
+- Ferramentas
+
+
+## Jornalismo de dados
 
 - [A Conta dos Passaralhos](https://passaralhos.voltdata.info/) - Demissões de jornalistas
 
@@ -95,3 +108,45 @@ knitr::include_graphics("imgs/monitor.png")
 
 Ferramentas para facilitar o trabalho de checadores e jornalistas nas eleições
 
+# Jurimetria
+
+. . .
+
+Aplicação da estatística ao direito
+
+## Jurimetria
+
+- Pesquisas quantitativas
+- Políticas públicas com embasamento empírico
+- Otimização de estratégias de acordo e de provisionamento
+
+
+## Jurimetria
+
+:::: {.columns}
+
+::: {.column width="50%"}
+```{r out.width = "800", fig.align = "left", echo = FALSE}
+knitr::include_graphics("imgs/varas.png")
+```
+:::
+::: {.column width="50%"}
+Implementação das varas empresariais especializadas em São Paulo
+:::
+::::
+
+## Jurimetria
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r out.width = "800", fig.align = "left", echo = FALSE}
+knitr::include_graphics("imgs/adocao.png")
+```
+:::
+::: {.column width="50%"}
+Processos de adoção - perfis de crianças e tempo de espera
+:::
+::::
+
+
+[Outros projetos e Observatórios](https://obs.abj.org.br/projetos/)
