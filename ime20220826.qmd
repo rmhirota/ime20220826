@@ -1,0 +1,97 @@
+---
+title: "Estatística e sociedade"
+subtitle: "Aplicações no direito e no jornalismo"
+format:
+  revealjs:
+    theme: moon
+---
+
+## Olá! `r emo::ji("wave")` {.smaller}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+```{r out.width = "220", fig.align = "left", echo = FALSE}
+knitr::include_graphics("imgs/renata.jpg")
+```
+:::
+
+::: {.column width="70%"}
+**Renata Hirota** é jornalista de dados, formada na ECA-USP e no IME-USP. Lida com dados desde 2017 e atualmente trabalha na Associação Brasileira de Jurimetria. Colabora também com o Núcleo Jornalismo / Volt Data Lab, onde trabalha com análises de dados e desenvolvimento de ferramentas para jornalistas. Faz parte da comunidade R-Ladies São Paulo, que promove a diversidade de gênero na comunidade da linguagem de programação R.
+
+:::
+
+::::
+
+## Jornalismo de dados?
+
+- [A Conta dos Passaralhos](https://passaralhos.voltdata.info/) - Demissões de jornalistas
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r out.width = "420", fig.align = "left", echo = FALSE}
+knitr::include_graphics("imgs/passaralhos1.png")
+```
+:::
+::: {.column width="50%"}
+```{r out.width = "400", fig.align = "left", echo = FALSE}
+knitr::include_graphics("imgs/passaralhos2.png")
+```
+:::
+::::
+
+## Jornalismo de dados - análises
+
+- [As milícias assumiram o controle do Rio de Janeiro](https://theintercept.com/2018/04/05/milicia-controle-rio-de-janeiro/) - Análise de ocorrências do Disque Denúncia
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r out.width = "400", fig.align = "left", echo = FALSE}
+knitr::include_graphics("imgs/intercept.png")
+```
+:::
+::: {.column width="50%"}
+```{r out.width = "800", fig.align = "left", echo = FALSE}
+knitr::include_graphics("imgs/disquedenuncia.avif")
+```
+:::
+::::
+
+## Jornalismo de dados - análises
+
+- [Engolindo Fumaça](https://infoamazonia.org/project/engolindo-fumaca/)
+  - Dados de satélite
+  - Validação com dados no solo
+  - Modelo estatístico com variáveis de saúde
+
+## Jornalismo de dados - ferramentas
+
+- Agregadores de pesquisa
+  - [Poder360](https://www.poder360.com.br/agregador-de-pesquisas/)
+  - [Jota](https://data.jota.info/agregador/)
+  - [Estadão](https://www.estadao.com.br/politica/eleicoes/agregador-pesquisa-eleitoral-2022/?cargo=presidencial&modalidade=todas&regiao=todas&turno=)
+
+## Jornalismo de dados - ferramentas
+
+- Ferramentas de social listening
+```{r out.width = "800", fig.align = "left", echo = FALSE}
+knitr::include_graphics("imgs/apps.png")
+```
+
+---
+
+Ex: Monitor
+
+```{r out.width = "800", fig.align = "left", echo = FALSE}
+knitr::include_graphics("imgs/monitor.png")
+```
+
+## Jornalismo de dados - ferramentas
+
+- Bots
+  - [BotPonto](https://nucleo.jor.br/botponto/)
+  - [BedelBot](https://nucleo.jor.br/bedelbot/)
+
+Ferramentas para facilitar o trabalho de checadores e jornalistas nas eleições
+
